@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0 (Python 3.7.2 on win32)" generated="20191222 21:00:30.161">
+<suite id="s1" name="Android" source="C:\Users\vinaykn\eclipse-workspace\Android">
+<suite id="s1-s1" name="Contact" source="C:\Users\vinaykn\eclipse-workspace\Android\Contact.robot">
+<test id="s1-s1-t1" name="AddingContact">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello</arg>
+</arguments>
+<msg timestamp="20191222 21:00:30.811" level="INFO">Hello</msg>
+<status status="PASS" starttime="20191222 21:00:30.810" endtime="20191222 21:00:30.812"></status>
+</kw>
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=6.0</arg>
+<arg>deviceName=ZY2222VPNN</arg>
+<arg>appPackage=com.android.contacts</arg>
+<arg>appActivity=com.android.contacts.activities.PeopleActivity</arg>
+</arguments>
+<status status="PASS" starttime="20191222 21:00:30.813" endtime="20191222 21:00:47.858"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>text=Next</arg>
+</arguments>
+<status status="PASS" starttime="20191222 21:00:47.860" endtime="20191222 21:00:49.079"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=com.google.android.gms:id/sud_navbar_next</arg>
+</arguments>
+<msg timestamp="20191222 21:00:49.083" level="INFO">Clicking element 'id=com.google.android.gms:id/sud_navbar_next'.</msg>
+<status status="PASS" starttime="20191222 21:00:49.080" endtime="20191222 21:00:49.786"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>text=No contacts.</arg>
+</arguments>
+<status status="PASS" starttime="20191222 21:00:49.787" endtime="20191222 21:00:49.879"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=create_contact_button</arg>
+</arguments>
+<msg timestamp="20191222 21:00:49.884" level="INFO">Clicking element 'id=create_contact_button'.</msg>
+<status status="PASS" starttime="20191222 21:00:49.880" endtime="20191222 21:00:50.805"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=left_button</arg>
+</arguments>
+<msg timestamp="20191222 21:00:50.810" level="INFO">Clicking element 'id=left_button'.</msg>
+<status status="PASS" starttime="20191222 21:00:50.806" endtime="20191222 21:00:51.608"></status>
+</kw>
+<kw name="Click Element At Coordinates" library="AppiumLibrary">
+<doc>click element at a certain coordinate</doc>
+<arguments>
+<arg>coordinate_X=160</arg>
+<arg>coordinate_Y=602</arg>
+</arguments>
+<msg timestamp="20191222 21:00:51.612" level="INFO">Pressing at (160, 602).</msg>
+<status status="PASS" starttime="20191222 21:00:51.609" endtime="20191222 21:00:51.762"></status>
+</kw>
+<kw name="Hide Keyboard" library="AppiumLibrary">
+<doc>Hides the software keyboard on the device. (optional) In iOS, use `key_name` to press</doc>
+<status status="PASS" starttime="20191222 21:00:51.763" endtime="20191222 21:00:53.435"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText</arg>
+<arg>Anugna</arg>
+</arguments>
+<msg timestamp="20191222 21:00:53.440" level="INFO">Typing text 'Anugna' into text field 'xpath=/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText'</msg>
+<status status="PASS" starttime="20191222 21:00:53.436" endtime="20191222 21:00:59.254"></status>
+</kw>
+<kw name="Hide Keyboard" library="AppiumLibrary">
+<doc>Hides the software keyboard on the device. (optional) In iOS, use `key_name` to press</doc>
+<status status="PASS" starttime="20191222 21:00:59.255" endtime="20191222 21:01:00.919"></status>
+</kw>
+<kw name="Click Element At Coordinates" library="AppiumLibrary">
+<doc>click element at a certain coordinate</doc>
+<arguments>
+<arg>coordinate_X=160</arg>
+<arg>coordinate_Y=695</arg>
+</arguments>
+<msg timestamp="20191222 21:01:00.923" level="INFO">Pressing at (160, 695).</msg>
+<status status="PASS" starttime="20191222 21:01:00.920" endtime="20191222 21:01:01.062"></status>
+</kw>
+<kw name="Hide Keyboard" library="AppiumLibrary">
+<doc>Hides the software keyboard on the device. (optional) In iOS, use `key_name` to press</doc>
+<status status="PASS" starttime="20191222 21:01:01.063" endtime="20191222 21:01:02.713"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText</arg>
+<arg>100</arg>
+</arguments>
+<msg timestamp="20191222 21:01:02.719" level="INFO">Typing text '100' into text field 'xpath=/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText'</msg>
+<status status="PASS" starttime="20191222 21:01:02.714" endtime="20191222 21:01:09.022"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=com.android.contacts:id/menu_save</arg>
+</arguments>
+<msg timestamp="20191222 21:01:09.027" level="INFO">Clicking element 'id=com.android.contacts:id/menu_save'.</msg>
+<status status="PASS" starttime="20191222 21:01:09.023" endtime="20191222 21:01:10.272"></status>
+</kw>
+<kw name="Go Back" library="AppiumLibrary">
+<doc>Goes one step backward in the browser history.</doc>
+<status status="PASS" starttime="20191222 21:01:10.273" endtime="20191222 21:01:11.734"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>text=Anugna</arg>
+</arguments>
+<status status="PASS" starttime="20191222 21:01:11.735" endtime="20191222 21:01:11.859"></status>
+</kw>
+<kw name="Page Should Contain Text" library="AppiumLibrary">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>Anugna</arg>
+</arguments>
+<msg timestamp="20191222 21:01:11.951" level="INFO">Current page contains text 'Anugna'.</msg>
+<status status="PASS" starttime="20191222 21:01:11.860" endtime="20191222 21:01:11.952"></status>
+</kw>
+<status status="PASS" starttime="20191222 21:00:30.808" endtime="20191222 21:01:11.953" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191222 21:00:30.323" endtime="20191222 21:01:11.955"></status>
+</suite>
+<status status="PASS" starttime="20191222 21:00:30.250" endtime="20191222 21:01:11.960"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Android">Android</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Contact">Android.Contact</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

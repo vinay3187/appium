@@ -49,7 +49,7 @@ AddFavourites
     AppiumLibrary.Click Element    xpath:/hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText[1]
     AppiumLibrary.Hide Keyboard
     AppiumLibrary.Input Text    xpath:AppiumLibrary.Hide Keyboard    text:Inforce
-    AppiumLibrary.Click Element    id:com.android.contacts:id/menu_save
+
     
 *** Keyword ***
 \
